@@ -1,0 +1,54 @@
+.chips-container {
+  background-color: #e6f0f3;
+  max-width: 720px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f3a3a;
+  margin-top: 30px;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+}
+
+.chips-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.chip {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c5d58;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(47, 79, 79, 0.07);
+}
+
+.chip {
+  margin-top: 30px;
+  padding: 0 20px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.close-btn {
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 900;
+  color: brown;
+  margin-left: 10px;
+  cursor: pointer;
+}
